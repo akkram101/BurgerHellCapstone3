@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BurgerHellCapstone3/static/css/main.ddb16443.css",
-    "main.js": "/BurgerHellCapstone3/static/js/main.2c350f9d.js",
+    "main.js": "/BurgerHellCapstone3/static/js/main.208d0c8f.js",
     "index.html": "/BurgerHellCapstone3/index.html",
     "main.ddb16443.css.map": "/BurgerHellCapstone3/static/css/main.ddb16443.css.map",
-    "main.2c350f9d.js.map": "/BurgerHellCapstone3/static/js/main.2c350f9d.js.map"
+    "main.208d0c8f.js.map": "/BurgerHellCapstone3/static/js/main.208d0c8f.js.map"
   },
   "entrypoints": [
     "static/css/main.ddb16443.css",
-    "static/js/main.2c350f9d.js"
+    "static/js/main.208d0c8f.js"
   ]
 }
