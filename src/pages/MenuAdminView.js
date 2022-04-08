@@ -166,7 +166,7 @@ export default function MenuAdminView(){
 							        <p>{description}</p>
 							      </div>
 							      <div className="modal-footer">
-							        <button type="submit" className="btn btn-warning btn-block" data-dismiss="modal" onClick={()=>addToCart(result,quantity)}>Add to Cart</button>
+							        <button type="submit" className="btn btn-warning btn-block" data-dismiss="modal">Edit</button>
 							      </div>
 							    </div>
 							  </div>
@@ -224,7 +224,7 @@ export default function MenuAdminView(){
 							        <p>{description}</p>
 							      </div>
 							      <div className="modal-footer">
-							        <button type="submit" className="btn btn-warning btn-block" data-dismiss="modal" onClick={()=>addToCart(result,quantity)}>Add to Cart</button>
+							        <button type="submit" className="btn btn-warning btn-block" data-dismiss="modal" >Edit</button>
 							      </div>
 							    </div>
 							  </div>
@@ -282,7 +282,7 @@ export default function MenuAdminView(){
 							        <p>{description}</p>
 							      </div>
 							      <div className="modal-footer">
-							        <button type="submit" className="btn btn-warning btn-block" data-dismiss="modal" onClick={()=>addToCart(result,quantity)}>Add to Cart</button>
+							        <button type="submit" className="btn btn-warning btn-block" data-dismiss="modal">Edit</button>
 							      </div>
 							    </div>
 							  </div>
