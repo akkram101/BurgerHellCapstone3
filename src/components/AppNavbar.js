@@ -1,6 +1,5 @@
-import {Fragment, useContext, useState, useEffect} from 'react'
-import {Navbar, Container, Nav, Button, Modal} from 'react-bootstrap'
-import UserContext from '../UserContext'
+import {Fragment} from 'react'
+import {Button} from 'react-bootstrap'
 import {LoginModal, RegisterModal} from './Modal'
 import {useNavigate} from 'react-router-dom'
 
@@ -9,11 +8,6 @@ const admin = localStorage.getItem('isAdmin')
 
 
 export default function AppNavBar(){
-	const navigate = useNavigate()
-
-	// const[login, setLogin] = useState(false)
-	// const[register, setRegister] = useState(false)
-
 	const logout = () => {
 		localStorage.clear()
 		console.log(`hi`)
@@ -21,9 +15,9 @@ export default function AppNavBar(){
 	}
 
 	const Profile = () => {
-		if(token != null || token != undefined){
+		if(token !== null || token !== undefined){
 
-			if(admin=="true"){
+			if(admin==="true"){
 
 				return(
 				<Fragment>
@@ -50,7 +44,7 @@ export default function AppNavBar(){
 		}
 
 	const Buttons = () => {
-		if(token != null || token != undefined){
+		if(token !== null || token !== undefined){
 				return(
 				<Fragment>
 						<Button variant="outline-warning" className="button"><a href="./Menu">Order Now</a></Button>

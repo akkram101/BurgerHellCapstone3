@@ -1,7 +1,4 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import {UserProvider} from './UserContext'
-
-import {useState, useEffect} from 'react';
 
 import Home from './pages/Home'
 import Menu from './pages/Menu'
@@ -12,31 +9,6 @@ import NotFound from './pages/NotFound'
 
 
 function App() {
-  // const [user,setUser] = useState({
-  //   id:null,
-  //   isAdmin:null,
-  //   email:null
-  // })
-
-  // useEffect( () => {
-  //   const token=localStorage.getItem("token")
-
-  //   fetch('http://localhost:3008/api/users/profile',{
-  //     method:"GET",
-  //     headers:{
-  //       "Authorization": `Bearer${token}`
-  //     }
-  //   })
-  //   .then(result => result.json())
-  //   .then(result =>{
-  //      console.log(result)
-  //   })
-  // }, [])
-  
-
-
-
-
 
   return(
 
